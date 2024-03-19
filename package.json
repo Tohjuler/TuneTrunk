@@ -5,15 +5,14 @@
   "description": "YouTube Music Desktop App - including custom plugins",
   "main": "./dist/main/index.js",
   "license": "MIT",
-  "repository": "th-ch/youtube-music",
+  "repository": "TuneTrunk/TuneTrunk",
   "author": {
-    "name": "th-ch",
-    "email": "th-ch@users.noreply.github.com",
-    "url": "https://github.com/th-ch/youtube-music"
+    "name": "TuneTrunk",
+    "url": "https://github.com/TuneTrunk/TuneTrunk"
   },
   "build": {
-    "appId": "com.github.th-ch.youtube-music",
-    "productName": "YouTube Music",
+    "appId": "com.github.Tohjuler.TuneTrunk",
+    "productName": "TuneTrunk",
     "files": [
       "!*",
       "dist",

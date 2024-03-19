@@ -10,9 +10,9 @@ body:
     options:
       - label: I use the latest version of YouTube Music (Application).
         required: true
-      - label: I have searched the [issue tracker](https://github.com/th-ch/youtube-music/issues) for a bug report that matches the one I want to file, without success.
+      - label: I have searched the [issue tracker](https://github.com/TuneTrunk/TuneTrunk/issues) for a bug report that matches the one I want to file, without success.
         required: true
-      - label: I understand that **th-ch/youtube-music has NO affiliation with Google or YouTube**
+      - label: I understand that **TuneTrunk/TuneTrunk has NO affiliation with Google or YouTube**
         required: true
 - type: input
   attributes:
@@ -92,4 +92,4 @@ body:
 - type: textarea
   attributes:
     label: Additional Information
-    description: If your problem needs further explanation, or if the issue you're seeing cannot be reproduced in a gist, please add more information here. 
+    description: If your problem needs further explanation, or if the issue you're seeing cannot be reproduced in a gist, please add more information here.

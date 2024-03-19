@@ -2,13 +2,13 @@
 
 # YouTube Music
 
-[![GitHub release](https://img.shields.io/github/release/th-ch/youtube-music.svg?style=for-the-badge&logo=youtube-music)](https://github.com/th-ch/youtube-music/releases/)
-[![GitHub license](https://img.shields.io/github/license/th-ch/youtube-music.svg?style=for-the-badge)](https://github.com/th-ch/youtube-music/blob/master/LICENSE)
-[![eslint code style](https://img.shields.io/badge/code_style-eslint-5ed9c7.svg?style=for-the-badge)](https://github.com/th-ch/youtube-music/blob/master/.eslintrc.js)
-[![Build status](https://img.shields.io/github/actions/workflow/status/th-ch/youtube-music/build.yml?branch=master&style=for-the-badge&logo=youtube-music)](https://GitHub.com/th-ch/youtube-music/releases/)
-[![GitHub All Releases](https://img.shields.io/github/downloads/th-ch/youtube-music/total?style=for-the-badge&logo=youtube-music)](https://GitHub.com/th-ch/youtube-music/releases/)
+[![GitHub release](https://img.shields.io/github/release/TuneTrunk/TuneTrunk.svg?style=for-the-badge&logo=youtube-music)](https://github.com/TuneTrunk/TuneTrunk/releases/)
+[![GitHub license](https://img.shields.io/github/license/TuneTrunk/TuneTrunk.svg?style=for-the-badge)](https://github.com/TuneTrunk/TuneTrunk/blob/master/LICENSE)
+[![eslint code style](https://img.shields.io/badge/code_style-eslint-5ed9c7.svg?style=for-the-badge)](https://github.com/TuneTrunk/TuneTrunk/blob/master/.eslintrc.js)
+[![Build status](https://img.shields.io/github/actions/workflow/status/TuneTrunk/TuneTrunk/build.yml?branch=master&style=for-the-badge&logo=youtube-music)](https://GitHub.com/TuneTrunk/TuneTrunk/releases/)
+[![GitHub All Releases](https://img.shields.io/github/downloads/TuneTrunk/TuneTrunk/total?style=for-the-badge&logo=youtube-music)](https://GitHub.com/TuneTrunk/TuneTrunk/releases/)
 [![AUR](https://img.shields.io/aur/version/youtube-music-bin?color=blueviolet&style=for-the-badge&logo=youtube-music)](https://aur.archlinux.org/packages/youtube-music-bin)
-[![Known Vulnerabilities](https://snyk.io/test/github/th-ch/youtube-music/badge.svg)](https://snyk.io/test/github/th-ch/youtube-music)
+[![Known Vulnerabilities](https://snyk.io/test/github/TuneTrunk/TuneTrunk/badge.svg)](https://snyk.io/test/github/TuneTrunk/TuneTrunk)
 
 </div>
 
@@ -16,7 +16,7 @@
 
 
 <div align="center">
-	<a href="https://github.com/th-ch/youtube-music/releases/latest">
+	<a href="https://github.com/TuneTrunk/TuneTrunk/releases/latest">
 		<img src="web/youtube-music.svg" width="400" height="100" alt="YouTube Music SVG">
 	</a>
 </div>
@@ -33,7 +33,7 @@ Read this in other languages: [🇰🇷](./docs/readme/README-ko.md), [🇮🇸]
 
 |                          Player Screen (album color theme & ambient light)                                |
 |:---------------------------------------------------------------------------------------------------------:|
-|![Screenshot1](https://github.com/th-ch/youtube-music/assets/16558115/53efdf73-b8fa-4d7b-a235-b96b91ea77fc)|
+|![Screenshot1](https://github.com/TuneTrunk/TuneTrunk/assets/16558115/53efdf73-b8fa-4d7b-a235-b96b91ea77fc)|
 
 ## Content
 
@@ -67,7 +67,7 @@ Read this in other languages: [🇰🇷](./docs/readme/README-ko.md), [🇮🇸]
 ## Available plugins:
 
 - **Ad Blocker**: Block all ads and tracking out of the box
-  
+
 - **Album Actions**: Adds Undislike, Dislike, Like, and Unlike buttons to apply this to all songs in a playlist or album
 
 - **Album Color Theme**: Applies a dynamic theme and visual effects based on the album color palette
@@ -170,52 +170,12 @@ You can help with translation on [Hosted Weblate](https://hosted.weblate.org/pro
 
 ## Download
 
-You can check out the [latest release](https://github.com/th-ch/youtube-music/releases/latest) to quickly find the
+You can check out the [latest release](https://github.com/TuneTrunk/TuneTrunk/releases/latest) to quickly find the
 latest version.
-
-### Arch Linux
-
-Install the [`youtube-music-bin`](https://aur.archlinux.org/packages/youtube-music-bin) package from the AUR. For AUR installation instructions, take a look at
-this [wiki page](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
-
-### MacOS
-
-You can install the app using Homebrew (see the [cask definition](https://github.com/th-ch/homebrew-youtube-music)):
-
-```bash
-brew install th-ch/youtube-music/youtube-music
-```
-
-If you install the app manually and get an error "is damaged and can’t be opened." when launching the app, run the following in the Terminal:
-
-```bash
-xattr -cr /Applications/YouTube\ Music.app
-```
-
-### Windows
-
-You can use the [Scoop package manager](https://scoop.sh) to install the `youtube-music` package from
-the [`extras` bucket](https://github.com/ScoopInstaller/Extras).
-
-```bash
-scoop bucket add extras
-scoop install extras/youtube-music
-```
-
-Alternately you can use [Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/), Windows 11s
-official CLI package manager to install the `th-ch.YouTubeMusic` package.
-
-*Note: Microsoft Defender SmartScreen might block the installation since it is from an "unknown publisher". This is also
-true for the manual installation when trying to run the executable(.exe) after a manual download here on github (same
-file).*
-
-```bash
-winget install th-ch.YouTubeMusic
-```
 
 #### How to install without a network connection? (in Windows)
 
-- Download the `*.nsis.7z` file for _your device architecture_ in [release page](https://github.com/th-ch/youtube-music/releases/latest).
+- Download the `*.nsis.7z` file for _your device architecture_ in [release page](https://github.com/TuneTrunk/TuneTrunk/releases/latest).
   - `x64` for 64-bit Windows
   - `ia32` for 32-bit Windows
   - `arm64` for ARM64 Windows
@@ -232,7 +192,7 @@ Some predefined themes are available in https://github.com/kerichdev/themes-for-
 ## Dev
 
 ```bash
-git clone https://github.com/th-ch/youtube-music
+git clone https://github.com/TuneTrunk/TuneTrunk
 cd youtube-music
 pnpm install --frozen-lockfile
 pnpm dev
@@ -387,7 +347,7 @@ Uses [Playwright](https://playwright.dev/) to test the app.
 
 ## License
 
-MIT © [th-ch](https://github.com/th-ch/youtube-music)
+MIT © [Tohjuler](https://github.com/TuneTrunk/TuneTrunk)
 
 ## FAQ
 

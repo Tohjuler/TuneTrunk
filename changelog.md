@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-#### [v3.3.2](https://github.com/th-ch/youtube-music/compare/v3.3.1...v3.3.2)
+#### [v3.3.2](https://github.com//compare/v3.3.1...v3.3.2)
 
 - fix: fix bugs in MPRIS, and improve MPRIS [`#1760`](https://github.com/th-ch/youtube-music/pull/1760)
 - fix(deps): update dependency electron-updater to v6.1.8 [`#1770`](https://github.com/th-ch/youtube-music/pull/1770)

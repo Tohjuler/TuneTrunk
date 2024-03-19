@@ -2,13 +2,13 @@
 
 # YouTube Tónlist
 
-[![GitHub release](https://img.shields.io/github/release/th-ch/youtube-music.svg?style=for-the-badge&logo=youtube-music)](https://github.com/th-ch/youtube-music/releases/)
-[![GitHub license](https://img.shields.io/github/license/th-ch/youtube-music.svg?style=for-the-badge)](https://github.com/th-ch/youtube-music/blob/master/LICENSE)
-[![eslint code style](https://img.shields.io/badge/code_style-eslint-5ed9c7.svg?style=for-the-badge)](https://github.com/th-ch/youtube-music/blob/master/.eslintrc.js)
-[![Build status](https://img.shields.io/github/actions/workflow/status/th-ch/youtube-music/build.yml?branch=master&style=for-the-badge&logo=youtube-music)](https://GitHub.com/th-ch/youtube-music/releases/)
-[![GitHub All Releases](https://img.shields.io/github/downloads/th-ch/youtube-music/total?style=for-the-badge&logo=youtube-music)](https://GitHub.com/th-ch/youtube-music/releases/)
+[![GitHub release](https://img.shields.io/github/release/TuneTrunk/TuneTrunk.svg?style=for-the-badge&logo=youtube-music)](https://github.com/TuneTrunk/TuneTrunk/releases/)
+[![GitHub license](https://img.shields.io/github/license/TuneTrunk/TuneTrunk.svg?style=for-the-badge)](https://github.com/TuneTrunk/TuneTrunk/blob/master/LICENSE)
+[![eslint code style](https://img.shields.io/badge/code_style-eslint-5ed9c7.svg?style=for-the-badge)](https://github.com/TuneTrunk/TuneTrunk/blob/master/.eslintrc.js)
+[![Build status](https://img.shields.io/github/actions/workflow/status/TuneTrunk/TuneTrunk/build.yml?branch=master&style=for-the-badge&logo=youtube-music)](https://GitHub.com/TuneTrunk/TuneTrunk/releases/)
+[![GitHub All Releases](https://img.shields.io/github/downloads/TuneTrunk/TuneTrunk/total?style=for-the-badge&logo=youtube-music)](https://GitHub.com/TuneTrunk/TuneTrunk/releases/)
 [![AUR](https://img.shields.io/aur/version/youtube-music-bin?color=blueviolet&style=for-the-badge&logo=youtube-music)](https://aur.archlinux.org/packages/youtube-music-bin)
-[![Known Vulnerabilities](https://snyk.io/test/github/th-ch/youtube-music/badge.svg)](https://snyk.io/test/github/th-ch/youtube-music)
+[![Known Vulnerabilities](https://snyk.io/test/github/TuneTrunk/TuneTrunk/badge.svg)](https://snyk.io/test/github/TuneTrunk/TuneTrunk)
 
 </div>
 
@@ -16,7 +16,7 @@
 
 
 <div align="center">
-	<a href="https://github.com/th-ch/youtube-music/releases/latest">
+	<a href="https://github.com/TuneTrunk/TuneTrunk/releases/latest">
 		<img src="../../web/youtube-music.svg" width="400" height="100" alt="YouTube Music SVG">
 	</a>
 </div>
@@ -31,7 +31,7 @@
 
 |                          Spilaraskjár (albúmslitaþema & umhverfisljós)                                         |
 |:---------------------------------------------------------------------------------------------------------:|
-|![Screenshot1](https://github.com/th-ch/youtube-music/assets/16558115/53efdf73-b8fa-4d7b-a235-b96b91ea77fc)|
+|![Screenshot1](https://github.com/TuneTrunk/TuneTrunk/assets/16558115/53efdf73-b8fa-4d7b-a235-b96b91ea77fc)|
 
 ## Efni
 
@@ -65,7 +65,7 @@
 ## Tiltæk viðbætur:
 
 - **Auglýsingablokkari**: Lokaðu fyrir allar auglýsingar og rakningar úr kassanum
-  
+
 - **Albúmsaðgerðir**: Bætir Ódíslika, Mislíkt, Líkt, og Ólíkt til að nota þetta á öll lög á spilunarlista eða albúm
 
 - **Albúmslitaþema**: Beitir kraftmikið þema og sjónrænum áhrifum sem byggjast á litavali albúmsins
@@ -161,48 +161,8 @@ MP3 [beint úr viðmótinu](https://user-images.githubusercontent.com/61631665/1
 
 ## Sækja
 
-Þú getur skoðað [nýjustu útgáfuna](https://github.com/th-ch/youtube-music/releases/latest) til að finna fljótt
+Þú getur skoðað [nýjustu útgáfuna](https://github.com/TuneTrunk/TuneTrunk/releases/latest) til að finna fljótt
 nýjustu útgáfuna.
-
-### Arch Linux
-
-Settu upp [`youtube-music-bin`](https://aur.archlinux.org/packages/youtube-music-bin) pakkann frá AUR. Fyrir AUR uppsetningarleiðbeiningar skaltu skoða
-þessa [wiki síðu](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
-
-### MacOS
-
-Þú getur sett upp appið með því að nota Homebrew (sjá [cask skilgreiningu](https://github.com/th-ch/homebrew-youtube-music))
-
-```bash
-brew install th-ch/youtube-music/youtube-music
-```
-
-Ef þú setur upp forritið handvirkt og færð villu "er skemmd og ekki er hægt að opna það," þegar þú ræsir forritið skaltu keyra eftirfarandi í flugstöðinni:
-
-```bash
-xattr -cr /Applications/YouTube\ Music.app
-```
-
-### Windows
-
-Þú getur notað [Scoop pakkastjórnun](https://scoop.sh) til að setja upp `youtube-music` pakkann frá
-[`extras` fötuna](https://github.com/ScoopInstaller/Extras).
-
-```bash
-scoop bucket add extras
-scoop install extras/youtube-music
-```
-
-Að öðrum kosti geturðu notað [Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/), Windows 11s
-opinber CLI pakkastjóri til að setja upp `th-ch.YouTubeMusic` pakkann.
-
-*Athugið: Microsoft Defender SmartScreen gæti lokað uppsetningunni þar sem hún er frá „óþekktum útgefanda“. Þetta er einnig
-satt fyrir handvirka uppsetningu þegar reynt er að keyra executable(.exe) eftir handvirkt niðurhal hér á github (sama
-skrá).*
-
-```bash
-winget install th-ch.YouTubeMusic
-```
 
 #### Hvernig á að setja upp án nettengingar? (í Windows)
 
